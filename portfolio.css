@@ -1,0 +1,10 @@
+.header__image{
+    height: 15rem;
+    width: 15rem;
+    border-radius: 50%;
+    @supports(clip-path: circle(0))
+    {
+        clip-path:circle(40%);
+        border-radius:none;
+    }
+}

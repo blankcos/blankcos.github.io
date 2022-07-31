@@ -79,7 +79,7 @@ header{
 }
 
 footer{
-    height: 10em;
+    height: 6em;
     width: 100%;
     background-color: black;
     display: flex;
@@ -96,8 +96,14 @@ footer > div > i {
 }
 footer > p{
     color:white;
-    opacity: 0.5;
+    opacity: 0.2;
 }
+.parallax h2{
+    font-family: 'Roboto';
+    text-align: center;
+    padding: 1em;
+}
+
 @media screen and (max-width: 678px) {
     header{
         font-size: 0.5em;
@@ -105,15 +111,17 @@ footer > p{
 
     .gallery-container{
         font-size: 0.8em;
-  
+        padding: 1em 0.5em;
     }
     .gallery-container .gallery {
         display: flex;
         flex-direction: column;
+        margin: 1em 0;
+        padding: 1em 0.5em;
     }
     .gallery>img{
         height: 10em;
-        width: 12.8em;
+        width: 100%;
     }
     .parallax{
         height: 10em;
@@ -124,5 +132,43 @@ footer > p{
         width: 3em;
   
     }
+    .parallax h2{
+        font-family: 'Roboto';
+        text-align: center;
+        padding: 1em;
+        font-size:0.8em ;
+    }
+}
 
+
+@media screen and (max-width: 900px) {
+    header{
+        font-size: 0.5em;
+    }
+
+    .gallery-container{
+        font-size: 0.8em;
+        padding: 1em 0.5em;
+    }
+    .gallery-container .gallery {
+        display: flex;
+        flex-direction: column;
+        margin: 1em 0;
+        padding: 1em 0.5em;
+    }
+    .gallery>img{
+        height: 10em;
+        width: 100%;
+    }
+    .parallax{
+        height: 10em;
+        width: 100%;
+    }
+
+
+    .skill-flex > img{
+        height: 3em;
+        width: 3em;
+  
+    }
 }
