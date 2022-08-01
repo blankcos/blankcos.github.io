@@ -7,7 +7,7 @@ header{
     background-color:RGB(255, 254, 242);
     padding: 30px;
     text-align: center;
-    color: white;
+    color:#0a192f;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -19,19 +19,19 @@ header{
 }
 
 .logo {
-    color:#898d8d;
+    color:#3ea092;
     font-size: 2em;
 }
 .links a{
-    color: #636366;;
+    color: #3ea092;
     font-size: 1.2sem;
     text-decoration: none;
     margin-left: 0.4em;
 }
 
 .gallery-container {
-    background-color: #fffef2;
-    width: 90%;
+    background-color:#fffef2;
+    width: 94%;
     display: flex;
     flex-direction: column;
     margin: auto;
@@ -45,12 +45,15 @@ header{
     background:#fffef2;
 }
 .gallery > img {
-    width: 44.5%;
+    width: 44%;
     height: 50%;
 }
 .skill-container{
     margin: 3em 0;
     padding: 2em 0;
+    background-color: #fffef2;
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
 }
 .skill-container h2 {
     text-align: center;
@@ -63,8 +66,8 @@ header{
      justify-content: space-around;
 }
 .skill-flex > img{
-    height: 10em;
-    width: 10em;
+    height: 5em;
+    width: 5em;
 }
 .parallax{
     background-image: url("img3.jpeg");
@@ -72,37 +75,66 @@ header{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height:20em;
+  height:22em;
   width: 100%;
   color: white;
   font-family: 'Ubuntu';
 }
 
+.parallax h2{
+    text-align: center;
+    padding: 2em;
+    font-size: 4em;
+    opacity: 0.8;
+}
+
+
 footer{
-    height: 6em;
+    height: 8em;
     width: 100%;
     background-color: black;
     display: flex;
     align-items: center;
+    padding: 0 2.5em;
     justify-content: space-between;
-    padding: 0 5em;
     
 }
 footer > div > i {
     color: whitesmoke;
     font-size: 2em !important;
     margin-left: 1em;
+  
 
 }
-footer > p{
+footer > .social-icon {
+    color: #fffef2;
+    font-size: 2em;
+    margin-left: 33.5em;
+}
+
+footer >h2{
     color:white;
-    opacity: 0.2;
-}
-.parallax h2{
-    font-family: 'Roboto';
     text-align: center;
-    padding: 1em;
+    font-family: 'Roboto';
+    font-size: 2em;
 }
+
+  .made-container{
+    background-color:black;
+    height: 3em;
+    width: 100%;
+  }
+  .made-container .made{
+    text-align: left;
+    font-family: 'Roboto';
+    font-size: 1.1em;
+    opacity: 0.5;
+    color: whitesmoke;
+    padding: 0.5em;
+  }
+
+
+
 
 @media screen and (max-width: 678px) {
     header{
